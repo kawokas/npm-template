@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "watch": "webpack --watch",
     "test": "nyc mocha --require @babel/polyfill --require @babel/register \"test/**/*.spec.js\""
   },
   "author": "kawoka",

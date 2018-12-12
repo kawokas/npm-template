@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "test": "nyc mocha --require @babel/polyfill --require @babel/register \"test/**/*.spec.js\""
+    "test": "nyc mocha --require @babel/polyfill --require @babel/register \"test/**/*.spec.js\"",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "author": "kawoka",
   "repository": "https://github.com/kawoka/npm-template",
@@ -24,6 +25,7 @@
     "babel-loader": "^8.0.4",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
     "codecov": "^3.1.0",
+    "coveralls": "^3.0.2",
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
     "expect": "^23.6.0",

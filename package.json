@@ -49,7 +49,7 @@
     ],
     "reporter": [
       "lcov",
-      "summary"
+      "text-summary"
     ]
   }
 }

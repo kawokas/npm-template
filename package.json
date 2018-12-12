@@ -9,6 +9,7 @@
     "test": "nyc mocha --require @babel/polyfill --require @babel/register \"test/**/*.spec.js\""
   },
   "author": "kawoka",
+  "repository": "https://github.com/kawoka/npm-template",
   "typings": "./index.d.ts",
   "license": "MIT",
   "devDependencies": {
